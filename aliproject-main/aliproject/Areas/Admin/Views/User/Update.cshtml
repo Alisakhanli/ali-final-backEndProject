@@ -1,0 +1,9 @@
+﻿@model User
+
+<h1>Update</h1>
+
+<form asp-controller="User" asp-action="Update" asp-route-id="@Model.Id">
+    <label>FullName</label>
+    <input asp-for="FullName" class="form-control" />
+    <button type="button">Save</button>
+</form>
